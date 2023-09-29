@@ -57,10 +57,7 @@
     .service img {
         scale: 0.6;
     }
-    .serviceWrapper h1 {
-        pointer-events: none;
-    }
-    .serviceWrapper img {
+    .serviceWrapper {
         pointer-events: none;
     }
     
