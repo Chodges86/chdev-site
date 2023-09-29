@@ -122,6 +122,9 @@
   .detailView {
     margin-inline: 100px;
   }
+  .contactLink h1 {
+    font-size: 35px;
+  }
 }
 @media screen and (max-width: 800px) {
   .overview p {
@@ -141,6 +144,9 @@
   .detailView p {
     font-size: 25px;
   }
+  .contactLink h1 {
+    font-size: 30px;
+  }
 }
 @media screen and (max-width: 550px) {
   .overview p {
@@ -152,6 +158,9 @@
     font-size: 25px;
   }
   .detailView p {
+    font-size: 20px;
+  }
+  .contactLink h1 {
     font-size: 20px;
   }
 }
@@ -174,5 +183,8 @@
   }
   .detailView p {
     font-size: 0.85rem;
+  }
+  .contactLink h1 {
+    font-size: 20px;
   }
 }
