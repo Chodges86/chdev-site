@@ -5,15 +5,15 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 
 import "./App.css";
-import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 
 function App() {
   return (
     <div className="App">
       <HelmetProvider>
-        <Header />
+        <Header/>
         <Routes>
           <Route index element={<Home />} />
           <Route path="/contact" element={<Contact />} />
