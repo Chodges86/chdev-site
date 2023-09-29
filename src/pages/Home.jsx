@@ -99,7 +99,10 @@ const Home = () => {
               <AiOutlineCloseCircle onClick={() => setDetails(null)} />
             </IconContext.Provider>
           </div>
-          <img src={details.img} alt={`artist drawing depicting a generalization of ${details.title}`} />
+          <img
+            src={details.img}
+            alt={`artist drawing depicting a generalization of ${details.title}`}
+          />
           <h1>{details.title}</h1>
           <div className={classes.details}>{details.jsx}</div>
         </div>

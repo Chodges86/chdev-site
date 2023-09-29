@@ -23,7 +23,7 @@ const AboutMe = () => {
             need anything, I’m always just an email or phone call away. I strive
             to make sure I provide quality service and products and I’m not
             afraid to tackle challenges and learn new things to help me grow in
-            my technical abilities. sit.
+            my technical abilities.
           </p>
         </div>
       </div>

@@ -12,17 +12,11 @@ const modal = {
       "Customized websites at affordable prices for small businesses and organizations",
     jsx: (
       <div>
-        <p>I create custom website solutions using:</p>
-        <ul>
-          <li>React.js</li>
-          <li>Node.js</li>
-          <li>Firebase</li>
-          <li>and SQL databases</li>
-        </ul>
+        <p>I can create a website that suits your needs exactly.</p>
         <p>
-          Depending on your needs. That's a lot of tech jargon to say that your
-          website will be customized to your needs.This means we are in complete
-          control and can make your site...well your site.
+          Whether you need a small site to show off your work and put people in touch 
+          with you, or a site that provides dynamic information and functionality to your users.  Let
+          me know what your vision is and I'll create it.
         </p>
         <br />
         <p>
@@ -59,16 +53,13 @@ const modal = {
         <p>This includes:</p>
         <ul>
           <li>Finding you a domain name and the registration</li>
-          <li>Setting up the website files to be hosted</li>
+          <li>Setting up hosting for the website.</li>
           <li>
             Setting up SSL certificates so you can provide a secure site your
             users can trust
           </li>
+          <li>Monthly maintenance checks and updates to the site</li>
         </ul>
-        <p>
-          All these things come with fees from different 3rd party vendors. I'll
-          package it all up, so you only have to pay one monthly fee.
-        </p>
         <br />
         <p>
           Another part of the process is maintenance and updates. I can monitor
@@ -151,20 +142,20 @@ const modal = {
           important things done.
         </p>
         <p style={{ textAlign: "center" }}>
-          With
+          {`With `}
           <a
             href="https://www.google.com/script/start/"
             target="_blank"
             rel="noreferrer"
             style={{ fontFamily: "Archivo Narrow" }}
           >
-            Google Apps Scripts
-          </a>{" "}
-          I can create workflows and automate processes that will allow you skip
+            Google App Scripts
+          </a>
+          {` I can create workflows and automate processes that will allow you skip
           the tedious tasks and work on what's important. The capabilities of
           the app scripts significantly increases the functionality of Google
           Workspace Apps such as Google Sheets, Google Calendar, and Google
-          Docs!
+          Docs!`}
         </p>
         <p>Some examples of what App Scripts can do:</p>
         <ul>
@@ -205,8 +196,6 @@ const modal = {
           can also handle creating good looking designs for your business or
           organization.
         </p>
-        <br />
-        <p>I can create:</p>
         <ul>
           <li>Logos</li>
           <li>Business Cards</li>
