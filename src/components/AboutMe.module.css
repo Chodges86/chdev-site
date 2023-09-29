@@ -48,12 +48,13 @@
     }
     .aboutMe {
         flex-direction: column;
+        padding-inline: 0;
     }
     .aboutMe img {
         height: 300px;
     }
     .aboutMe p {
-        margin-top: 0;
+        margin-inline: 5px;
     }
 }
 @media screen and (max-width: 600px) {
@@ -83,9 +84,5 @@
     }
     .aboutMe img {
         height: 200px;
-    }
-    .aboutMe p {
-        margin-inline: 5px;
-        font-size: 17px;
     }
 }
