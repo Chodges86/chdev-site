@@ -31,22 +31,24 @@ const Home = () => {
           content="CH Developments and Designs, LLC. is a web development company out of Hernando, MS offering affordable prices for web development to small businesses and organizations"
         />
       </Helmet>
-      <TitleBar text="<Beauty between the Brackets/>" />
-      <div className={classes.overview}>
-        <p>
-          Your website begins and ends with angle brackets. What we do between
-          the brackets is art! Web development is an art form that brings
-          together graphics, design, and beautifully written code that results
-          in a website custom built with your vision in mind. Together, we can
-          create something beautiful. I specialize in building websites for
-          small businesses and organizations that want the benefit of having a
-          web developer without the price tag that comes with hiring a web
-          agency.
-        </p>
+      <div className={classes.container}>
+        <TitleBar text="<Beauty between the Brackets/>" />
+        <div className={classes.overview}>
+          <p>
+            Your website begins and ends with angle brackets. What we do between
+            the brackets is art! Web development is an art form that brings
+            together graphics, design, and beautifully written code that results
+            in a website custom built with your vision in mind. Together, we can
+            create something beautiful. I specialize in building websites for
+            small businesses and organizations that want the benefit of having a
+            web developer without the price tag that comes with hiring a web
+            agency.
+          </p>
+        </div>
+        <h1 className={classes.servicesTitle} id="servicesTitle">
+          Services
+        </h1>
       </div>
-      <h1 className={classes.servicesTitle} id="servicesTitle">
-        Services
-      </h1>
       {!details ? (
         <div className={classes.services} id="service">
           <Service
@@ -88,11 +90,10 @@ const Home = () => {
           </div>
         </div>
       ) : (
-       
         <div className={classes.detailView}>
           <Helmet>
             <title>{`CH Devs LLC. - ${details.title}`}</title>
-            <meta name="description" content={details.description}/>
+            <meta name="description" content={details.description} />
           </Helmet>
           <div className={classes.closeCircle}>
             <IconContext.Provider value={{ size: "20px" }}>
