@@ -148,7 +148,8 @@
   }
   .detailView {
     margin-inline: 0px;
-    padding-inline: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .detailView h1 {
     font-size: 30px;
