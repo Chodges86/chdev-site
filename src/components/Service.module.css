@@ -58,7 +58,8 @@
 
   .serviceWrapper {
     height: 200px;
-    padding-block: 30px;
+    padding-block-start: 30px;
+    padding-block-end: 30px;
   }
   
   .serviceWrapper :hover h1 {
