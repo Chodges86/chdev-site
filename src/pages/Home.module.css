@@ -54,10 +54,11 @@
 }
 
 .detailView {
-  margin-top: 30px;
-  margin-bottom: 100px;
-  margin-inline: 300px;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  padding-inline: 300px;
   height: fit-content;
+  background-color: #eeeeee;
 }
 
 .detailView h1 {
