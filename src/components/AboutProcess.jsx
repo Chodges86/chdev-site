@@ -9,11 +9,11 @@ const AboutProcess = () => {
         <div>
           <p>
             The process for getting your website up and running requires several
-            things: , , and most important.... good communication.
+            things:
           </p>
           <p style={{margin: 0}}>good planning</p>
           <p style={{margin: 0}}>a great design</p>
-          <p style={{margin: 0}}>and beautiful code!</p>
+          <p style={{margin: 0, marginBottom: "20px"}}>and beautiful code!</p>
           <p>
             But the most important thing is good communication. During the
             process, we will be working together accomplish several tasks that

@@ -11,9 +11,39 @@
   padding-bottom: 10px;
 }
 
+.contactInfo {
+  background-color: #eeeeee;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contactInfo span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactInfo svg {
+  margin: 5px;
+}
+
+.contactInfo p {
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.contactInfo a {
+  font-family: "Julius Sans One", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .formWrapper {
   display: flex;
   justify-content: center;
+  min-height: 1000px;
+  background-color: #eeeeee;
 }
 
 .form {
@@ -23,9 +53,6 @@
   align-content: center;
   align-items: center;
   margin-block: 50px;
-  box-shadow: 3px 5px 5px #aaaaaa;
-  border-radius: 8px;
-  background-color: #526d82;
   width: 60%;
   height: 500px;
 }
@@ -35,10 +62,11 @@
 }
 
 .form label {
-  color: #eeeeee;
+  color: #222831;
   text-align: left;
   width: 80%;
   margin: 5px;
+  font-family: "Archivo Narrow", sans-serif;
 }
 
 .form input {
@@ -46,6 +74,8 @@
   width: 80%;
   border-radius: 3px;
   border: none;
+  background-color: #ffffff;
+  box-shadow: 1px 2px 4px #cccccc;
 }
 
 .form textarea {
@@ -53,6 +83,8 @@
   width: 80%;
   border-radius: 3px;
   border: none;
+  background-color: #ffffff;
+  box-shadow: 1px 2px 4px #cccccc;
 }
 
 .buttonWrapper {
@@ -69,6 +101,13 @@
   border: none;
   background-color: #eeeeee;
   color: #27374d;
+}
+
+.buttonWrapper button {
+  background-color: #222831;
+  color: #eeeeee;
+  border-radius: 5px;
+  box-shadow: 1px 2px 4px #cccccc;
 }
 @media screen and (max-width: 1200px) {
   .form {
