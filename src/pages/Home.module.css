@@ -129,6 +129,9 @@
   .detailView {
     margin-inline: 100px;
   }
+  .contactLink {
+    padding: 20px;
+  }
   .contactLink h1 {
     font-size: 35px;
   }
@@ -190,6 +193,9 @@
   }
   .detailView p {
     font-size: 0.85rem;
+  }
+  .contactLink {
+    padding: 0;
   }
   .contactLink h1 {
     font-size: 20px;
