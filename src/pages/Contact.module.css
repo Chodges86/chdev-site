@@ -75,8 +75,7 @@
   border-radius: 3px;
   border: none;
   background-color: #ffffff;
-  box-shadow: 1px 2px 4px #cccccc;
-}
+  box-shadow: 3px 4px 5px #00000020;}
 
 .form textarea {
   height: 50%;
@@ -84,8 +83,7 @@
   border-radius: 3px;
   border: none;
   background-color: #ffffff;
-  box-shadow: 1px 2px 4px #cccccc;
-}
+  box-shadow: 3px 4px 5px #00000020;}
 
 .buttonWrapper {
   display: flex;
@@ -104,10 +102,10 @@
 }
 
 .buttonWrapper button {
-  background-color: #222831;
+  background-color: #526D82;
   color: #eeeeee;
   border-radius: 5px;
-  box-shadow: 1px 2px 4px #cccccc;
+  box-shadow: 3px 4px 5px #00000020;
 }
 @media screen and (max-width: 1200px) {
   .form {

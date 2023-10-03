@@ -9,13 +9,14 @@
   background-color: #dde6ed;
   flex-direction: column;
   justify-content: center;
-  border-bottom-right-radius: 12px;
+  border-bottom-right-radius: 100%;
   box-shadow: 2px 3px 4px #5e5e5e40;
 }
 
 .nav {
   font-size: 1rem;
   font-family: "Archivo Narrow", sans-serif;
+  text-align: left;
   margin: 1rem;
   color: #27374d;
   text-decoration: none;
