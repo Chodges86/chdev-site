@@ -3,6 +3,7 @@ import hostingGraphic from "../assetts/hosting-graphic.png";
 import googleGraphic from "../assetts/google-graphic.png";
 import productivityGraphic from "../assetts/productivity-graphic.png";
 import graphicDesignGraphic from "../assetts/graphic-design-graphic.png";
+import { Link } from "react-router-dom";
 
 const modal = {
   customWebsite: {
@@ -14,9 +15,10 @@ const modal = {
       <div>
         <p>I can create a website that suits your needs exactly.</p>
         <p>
-          Whether you need a small site to show off your work and put people in touch 
-          with you, or a site that provides dynamic information and functionality to your users.  Let
-          me know what your vision is and I'll create it.
+          Whether you need a small site to show off your work and put people in
+          touch with you, or a site that provides dynamic information and
+          functionality to your users. Let me know what your vision is and I'll
+          create it.
         </p>
         <br />
         <p>
@@ -32,8 +34,10 @@ const modal = {
           the cost you would pay to hire an web developing organization.
         </p>
         <h2>
-          <a href="/contact">Get in touch today</a> so we can get started
-          building or re-designing you site!
+          <Link to="/contact" className="link">
+            Get in touch today
+          </Link>{" "}
+          so we can get started building or re-designing you site!
         </h2>
       </div>
     ),
@@ -81,14 +85,14 @@ const modal = {
           to work with in the office.
         </p>
         <p style={{ textAlign: "center" }}>
-          <a
-            href="https://workspace.google.com/"
+          <Link
+            to="https://workspace.google.com/"
             target="_blank"
             rel="noreferrer"
             style={{ fontFamily: "Archivo Narrow" }}
           >
             Google Workspace
-          </a>{" "}
+          </Link>{" "}
           provides all the tools you need and gives you access to custom
           professional looking email addresses
         </p>
@@ -125,7 +129,7 @@ const modal = {
         </ul>
         <br />
         <h2>
-          <a href="/contact">Let me help get you organized!</a>
+          <Link to="/contact">Let me help get you organized!</Link>
         </h2>
       </div>
     ),
@@ -143,14 +147,14 @@ const modal = {
         </p>
         <p style={{ textAlign: "center" }}>
           {`With `}
-          <a
-            href="https://www.google.com/script/start/"
+          <Link
+            to="https://www.google.com/script/start/"
             target="_blank"
             rel="noreferrer"
             style={{ fontFamily: "Archivo Narrow" }}
           >
             Google App Scripts
-          </a>
+          </Link>
           {` I can create workflows and automate processes that will allow you skip
           the tedious tasks and work on what's important. The capabilities of
           the app scripts significantly increases the functionality of Google
@@ -176,9 +180,9 @@ const modal = {
         <p>
           If you think there is way I can help make you more productive with
           these apps,{" "}
-          <a href="/contact" style={{ fontFamily: "Archivo Narrow" }}>
+          <Link to="/contact" style={{ fontFamily: "Archivo Narrow" }}>
             let me know!
-          </a>
+          </Link>
         </p>
       </div>
     ),
@@ -205,9 +209,9 @@ const modal = {
           <li>and more...</li>
         </ul>
         <p>
-          <a href="/contact" style={{ fontFamily: "Archivo Narrow" }}>
+          <Link to="/contact" style={{ fontFamily: "Archivo Narrow" }}>
             Get in touch
-          </a>{" "}
+          </Link>{" "}
           and we can discuss what your company needs to stand out among the
           competition!
         </p>

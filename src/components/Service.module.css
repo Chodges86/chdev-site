@@ -76,6 +76,10 @@
     filter: drop-shadow(5px 5px 5px #eeeeee);
     cursor: pointer;
   }
+  .service li {
+    font-size: 20px;
+  }
+  
 }
 
 @media screen and (max-width: 500px) {

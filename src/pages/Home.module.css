@@ -107,6 +107,7 @@
   font-family: "Julius Sans One", sans-serif;
   font-size: 28px;
   text-align: center;
+  text-decoration: none;
   cursor: pointer;
 }
 
@@ -128,8 +129,11 @@
     margin-inline: 2rem;
   }
   .detailView {
-    margin-inline: 100px;
+    margin-inline: 0;
+    padding-left: 20px;
+    padding-right: 20px;
   }
+
   .contactLink {
     padding: 20px;
   }
@@ -160,6 +164,15 @@
   .contactLink h1 {
     font-size: 30px;
   }
+  .details li {
+    font-size: 20px;
+  }
+  .details a {
+    font-size: 23px;
+  }
+  .details h2 {
+    font-size: 23px;
+  }
 }
 @media screen and (max-width: 550px) {
   .overview p {
@@ -179,6 +192,12 @@
   .servicesTitle {
     font-size: 25px;
   }
+  .details a {
+    font-size: 20px;
+  }
+  .details h2 {
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 400px) {
   .overview p {
@@ -187,9 +206,6 @@
   }
   .servicesTitle {
     font-size: 18px;
-  }
-  .detailView {
-    margin-inline: 20px;
   }
   .detailView img {
     height: 90px;
@@ -205,5 +221,8 @@
   }
   .contactLink h1 {
     font-size: 20px;
+  }
+  .details li {
+    font-size: 15px;
   }
 }
