@@ -61,17 +61,17 @@
     padding-block-start: 30px;
     padding-block-end: 30px;
   }
-  
+
   .serviceWrapper :hover h1 {
     transition: none;
-    scale: 1.0;
+    scale: 1;
     -webkit-filter: drop-shadow(5px 5px 5px #eeeeee);
     filter: drop-shadow(5px 5px 5px #eeeeee);
     cursor: pointer;
   }
   .serviceWrapper :hover img {
     transition: none;
-    scale: 1.0;
+    scale: 1;
     -webkit-filter: drop-shadow(5px 5px 5px #eeeeee);
     filter: drop-shadow(5px 5px 5px #eeeeee);
     cursor: pointer;

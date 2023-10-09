@@ -18,7 +18,7 @@ const HeaderNavMenu = ({ onClickOutside }) => {
   });
 
   return (
-    <div className={classes.menu} ref={ref}>
+    <div className={[classes.menu]} ref={ref}>
       <NavLink to="/" className={() => classes.nav} onClick={onClickOutside} end>
         Home
       </NavLink>
