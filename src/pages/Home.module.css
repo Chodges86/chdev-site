@@ -176,6 +176,9 @@
   .contactLink h1 {
     font-size: 20px;
   }
+  .servicesTitle {
+    font-size: 25px;
+  }
 }
 @media screen and (max-width: 400px) {
   .overview p {
@@ -183,7 +186,7 @@
     padding-top: 5px;
   }
   .servicesTitle {
-    font-size: 1rem;
+    font-size: 18px;
   }
   .detailView {
     margin-inline: 20px;

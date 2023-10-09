@@ -21,3 +21,14 @@
   color: #27374d;
   text-decoration: none;
 }
+
+@media screen and (max-width: 500px) {
+  .menu {
+    height: 125px;
+    width: 125px;
+  }
+  .nav {
+    margin-block: 5px;
+    font-size: .75rem;
+  }
+}
