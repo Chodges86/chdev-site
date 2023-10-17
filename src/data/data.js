@@ -37,7 +37,7 @@ const modal = {
           <Link to="/contact" className="link">
             Get in touch today
           </Link>{" "}
-          so we can get started building or re-designing you site!
+          so we can get started building or re-designing your site!
         </h2>
       </div>
     ),
